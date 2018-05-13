@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		80F487E320A8668300BE27DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F487E220A8668300BE27DD /* AppDelegate.swift */; };
-		80F487E520A8668300BE27DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F487E420A8668300BE27DD /* ViewController.swift */; };
-		80F487E820A8668300BE27DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F487E620A8668300BE27DD /* Main.storyboard */; };
 		80F487EA20A8668600BE27DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F487E920A8668600BE27DD /* Assets.xcassets */; };
 		80F487ED20A8668600BE27DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F487EB20A8668600BE27DD /* LaunchScreen.storyboard */; };
+		80F487F920A86D0A00BE27DD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F487F820A86D0A00BE27DD /* HomeController.swift */; };
+		80F487FB20A870BF00BE27DD /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F487FA20A870BF00BE27DD /* WordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80F487DF20A8668300BE27DD /* twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F487E220A8668300BE27DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80F487E420A8668300BE27DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80F487E720A8668300BE27DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80F487E920A8668600BE27DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F487EC20A8668600BE27DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80F487EE20A8668600BE27DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F487F820A86D0A00BE27DD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		80F487FA20A870BF00BE27DD /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 		80F487E120A8668300BE27DD /* twitter */ = {
 			isa = PBXGroup;
 			children = (
+				80F487F820A86D0A00BE27DD /* HomeController.swift */,
+				80F487FA20A870BF00BE27DD /* WordCell.swift */,
 				80F487E220A8668300BE27DD /* AppDelegate.swift */,
-				80F487E420A8668300BE27DD /* ViewController.swift */,
-				80F487E620A8668300BE27DD /* Main.storyboard */,
 				80F487E920A8668600BE27DD /* Assets.xcassets */,
 				80F487EB20A8668600BE27DD /* LaunchScreen.storyboard */,
 				80F487EE20A8668600BE27DD /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				80F487ED20A8668600BE27DD /* LaunchScreen.storyboard in Resources */,
 				80F487EA20A8668600BE27DD /* Assets.xcassets in Resources */,
-				80F487E820A8668300BE27DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +134,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F487E520A8668300BE27DD /* ViewController.swift in Sources */,
+				80F487FB20A870BF00BE27DD /* WordCell.swift in Sources */,
 				80F487E320A8668300BE27DD /* AppDelegate.swift in Sources */,
+				80F487F920A86D0A00BE27DD /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80F487E620A8668300BE27DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80F487E720A8668300BE27DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80F487EB20A8668600BE27DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
